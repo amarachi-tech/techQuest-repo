@@ -1,42 +1,42 @@
-// const age = 20
-// if(age >= 18){
-//     console.log("You are an Adult")
-// }else{
-//     console.log("You are not an Adult")
-// }
+const age = 20
+if(age >= 18){
+    console.log("You are an Adult")
+}else{
+    console.log("You are not an Adult")
+}
 
-// // CHECKING IF NUMBER IS POSITIVE
-// const number = 5
-// if(number > 0){
-//     console.log("positive")
-// }else{
-//     console.log("negative")
-// }
+// CHECKING IF NUMBER IS POSITIVE
+const number = 5
+if(number > 0){
+    console.log("positive")
+}else{
+    console.log("negative")
+}
 
-// // CHECKING THE STATUS FRUIT
-// const fruit = "apple"
-// if(fruit === "apple"){
-//     console.log("It's an apple")
-// }else{
-//     console.log("It's an apple")
-// }
+// CHECKING THE STATUS FRUIT
+const fruit = "apple"
+if(fruit === "apple"){
+    console.log("It's an apple")
+}else{
+    console.log("It's an apple")
+}
 
-// //ARRAY THAT PRINTS EVEN AND ODD NUMBER
-// const oddArr = [];
-// const evenArr = [];
-// for(let i = 1; i <= 1000; i++){
-    // oddArr.push(i)
-    // evenArr.push(i)
-//     if(i%2 === 0){
-//         console.log(`${i} is even`)
-//     }else{
-//         console.log(`${i} is odd`)
-//     }
-// }
-// console.log(evenArr)
-// console.log(oddArr)
+//ARRAY THAT PRINTS EVEN AND ODD NUMBER
+const oddArr = [];
+const evenArr = [];
+for(let i = 1; i <= 1000; i++){
+    oddArr.push(i)
+    evenArr.push(i)
+    if(i%2 === 0){
+        console.log(`${i} is even`)
+    }else{
+        console.log(`${i} is odd`)
+    }
+}
+console.log(evenArr)
+console.log(oddArr)
 
-//extracting indivitual data from data.js
+//extracting indivitual data from data
 const data =[
     {
       "id": 1,
